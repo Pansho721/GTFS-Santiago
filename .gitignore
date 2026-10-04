@@ -1,4 +1,79 @@
-
-
 # DATA
 DATA/*
+!DATA/.gitkeep
+
+# GTFS feeds / archivos de datos
+*.zip
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.db
+*.db.wal
+*.ddb
+.duckdb_history
+duckdb_temp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# uv / poetry / pdm
+.pdm-python
+.pdm-build/
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests / cobertura / linters
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Logs
+logs/
+*.log
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
